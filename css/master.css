@@ -1,0 +1,148 @@
+Body{
+
+}
+div h1{
+  font-family: 'Righteous', cursive;
+  margin-bottom: 0;
+
+}
+#header-container,
+#info-container {
+  background: #FFE924;
+  color: #36424A;
+}
+#header-container a{
+  color: black;
+}
+#header-container a:hover{
+  color: #473737;
+  font-size: 18px;
+  text-decoration: none;
+;
+}
+#menu-container nav{
+  background-color: #ededef;
+}
+#menu-container li a{
+  font-weight: 600;
+}
+
+.form-control:focus {
+  border-color: #99c84a;
+}
+
+.btn.btn-platzi {
+  background-color: #36424A;
+  color: white;
+}
+
+.btn.btn-platzi:hover {
+  background-color: #5F6A72;
+}
+
+input.form-control:focus {
+	border-color: #FFBB03;
+}
+
+.nav-link {
+	color: #D5D5D7;
+}
+
+.nav-link:hover {
+	color: #464a4c;
+}
+
+.activo,
+.activo:hover{
+	color: black;
+}
+#search-bar{
+  padding: 1em;
+}
+#productsCarousel img{
+  width: 100%;
+  margin: 0 auto;
+}
+.carousel-caption{
+  padding: 10px;
+  margin-bottom: 20px;
+  background: rgba(27, 18, 18, 0.5);
+}
+#info-container h4 {
+  margin: 1em 0;
+}
+#info-container img {
+  margin-top: 2em;
+  margin: 0 auto;
+}
+#footer-container{
+  font-size: 16px;
+  background-color: #434647;
+  color: #fff;
+  padding: 3em 0;
+}
+#footer-container  a{
+  color: white;
+}
+@media (max-width: 768px) {
+  #footer-container [class*="col-"] {
+    margin-bottom: 2em;
+  }
+}
+#breadcrumbs-container .breadcrumb {
+  background-color: white;
+  padding-left: 0;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item {
+  color: #1c3643;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item.active {
+  color: #95a5a6;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+  content: ">";
+}
+#productos-container {
+  margin-bottom: 2em;
+}
+
+#productos-container .list-group-item-action.active {
+  background-color: #FFE924;
+  border-color: #ccc;
+  color: #36424A;
+}
+
+#productos-container .list-group+.list-group {
+  margin-top: 1em;
+}
+
+@media (max-width: 768px) {
+  .listado-productos{
+  margin-top: 3em;
+}
+
+  .listado-productos .card-img-top{
+    width: 100%;
+  }
+
+}
+
+/*.card{
+  width: 200px;
+  height: 350px;
+}*/
+
+#pagination-container .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+
+  background-color: #FFE924;
+  border-color: #ccc;
+  color: #5F6A72;
+}
+
+#pagination-container .page-item:not(.active):not(.disabled) .page-link{
+  color: #5F6A72;
+
+}
